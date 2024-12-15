@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5395" started-at="2024-12-15T17:46:32Z" finished-at="2024-12-15T17:46:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5395" started-at="2024-12-15T17:46:32Z" finished-at="2024-12-15T17:46:37Z">
+      <class name="PracticeWebAutomation.PracticeWebAutomation.Testw">
+        <test-method status="PASS" signature="initiateChromeAndURL()[pri:0, instance:PracticeWebAutomation.PracticeWebAutomation.Testw@14a2f921]" name="initiateChromeAndURL" is-config="true" duration-ms="6484" started-at="2024-12-15T17:46:25Z" finished-at="2024-12-15T17:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateChromeAndURL -->
+        <test-method status="PASS" signature="main()[pri:0, instance:PracticeWebAutomation.PracticeWebAutomation.Testw@14a2f921]" name="main" duration-ms="5372" started-at="2024-12-15T17:46:32Z" finished-at="2024-12-15T17:46:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- PracticeWebAutomation.PracticeWebAutomation.Testw -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
