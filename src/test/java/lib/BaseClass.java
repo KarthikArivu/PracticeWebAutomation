@@ -7,17 +7,21 @@ import org.testng.annotations.BeforeSuite;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
+	
+	public WebDriver driver;
 	@BeforeSuite
-	public static void initiateChromeAndURL(){
+	public void initiateChromeAndURL(){
 		
-			System.out.println("Inside initiateChromeAndURL method");
+		System.out.println("Inside initiateChromeAndURL method");
+		
+		WebDriverManager.chromedriver().setup();
+		
+		 driver=new ChromeDriver();
+		driver.get("https://practice-automation.com/");
+		
+		System.out.println("End of initiateChromeAndURL method");
+		
 			
-			WebDriverManager.chromedriver().setup();
-			
-			WebDriver driver=new ChromeDriver();
-			driver.get("https://practice-automation.com/");
-			
-			System.out.println("End of initiateChromeAndURL method");
 	}
 
 }

@@ -9,9 +9,10 @@ public class Testw extends BaseClass{
 	public  void main(){
 		System.out.println("Inside initiateChromeAndURL main");
 		
-	 initiateChromeAndURL();
+	    
 		
 		System.out.println("End of initiateChromeAndURL main");
+	  
 	}
 
 	
